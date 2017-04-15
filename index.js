@@ -6,7 +6,7 @@
 var inquirer = require("inquirer");
 
 
-// constructor function for creating player objects
+// constructor function for creating question objects
 function BasicCard(question, solution) {
     this.question = question;
     this.solution = solution;
@@ -68,11 +68,18 @@ switch (basicFlashcard) {
 }
 
 
-function ClozeCard(fillBlank) {
+function ClozeCard(fillBlank, cloze) {
     this.fillBlank = fillBlank;
+    this.cloze = cloze;
     this.clause = "I am (going to / go) ...[fillBlank]... to bake a cake today.";
     this.clauseTwo = "George Washington was the first president of the United States.", "George Washington";
-
+    this.printCloze = function() {
+        console.log(this.cloze);
+    }
+    this.printText = function() {
+        console.log(this.fillBlank);
+    }
+    // this.message =  this.fillBlank.replace
 }
 //Argument 2 is "full", "partial", "cloze", or "question"
 var displayText = process.argv[2];
