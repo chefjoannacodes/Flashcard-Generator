@@ -1,0 +1,34 @@
+[
+	{
+		"front": "I (wake up/woke up) at 7 am every morning",
+		"back": "wake up"
+	},
+	{
+		"front": "I am (going to/going) bake a cake today",
+		"back": "going to"
+	},
+	{
+		"front": "I (go/am going) to have lunch",
+		"back": "am going"
+	},
+	{
+		"front": "I (go/went) to the beach yesterday",
+		"back": "went"
+	},
+	{
+		"front": "I (eat/ate) pizza for dinner last night",
+		"back": "ate"
+	},
+	{
+		"front": "I (played/play) volleyball on the beach when the weather is warm",
+		"back": "play"
+	},
+	{
+		"front": "I (visit/visited) the Getty Museum every summer",
+		"back": "visit"
+	},
+	{
+		"front": "Who is the prettiest in the land?",
+		"back": "Joanna"
+	}
+]

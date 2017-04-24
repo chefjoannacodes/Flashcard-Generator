@@ -1,0 +1,18 @@
+[
+	{
+		"partial": "In n out makes the best burgers in Los Angeles",
+		"cloze": "In n out"
+	},
+	{
+		"partial": "Proof bakery makes the best croissants in Los Angeles",
+		"cloze": "Proof bakery"
+	},
+	{
+		"partial": "Who is the   .....  ",
+		"answer": "best"
+	},
+	{
+		"partial": "When can we go to   .....  ",
+		"answer": "bed"
+	}
+]
